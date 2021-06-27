@@ -83,7 +83,7 @@ struct Conversion {
 }
 
 struct ContentView: View {
-    @State private var source = "0"
+    @State private var source = ""
     @State private var sourceUnitIndex = 0
     @State private var destinationUnitIndex = 1
     
@@ -120,6 +120,7 @@ struct ContentView: View {
                 }
                 Section {
                     TextField("Enter the value", text: $source)
+                        .keyboardType(.decimalPad)
                 }
                 Section(header: Text("Source Unit")) {
                     Picker("Select the Source Unit", selection: $sourceUnitIndex) {
