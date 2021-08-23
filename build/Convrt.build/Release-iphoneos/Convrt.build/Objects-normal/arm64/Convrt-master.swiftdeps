@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "e1fb733e62c67038c39351586559a895"
+build_time: [1629729807, 808371000]
+inputs:
+  "/Users/nivas/Projects/convrt/Convrt/ContentView.swift": [9223372036, 854775807]
+  "/Users/nivas/Projects/convrt/Convrt/ConvrtApp.swift": [9223372036, 854775807]

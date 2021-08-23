@@ -138,7 +138,7 @@ struct ContentView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                 }
-                Section {
+                Section(header: Text("Solution")) {
                     Text("\(result, specifier: "%g")")
                 }
             }
